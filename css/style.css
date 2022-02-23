@@ -1,0 +1,92 @@
+/* Deklarasi warna */
+.blue-1 {
+    background-color: #F1F3FF;
+}
+.blue-4 {
+    background-color: #0D28A6;
+}
+.green-3 {
+    background-color: #92D094;
+}
+.green-4 {
+    background-color: #5CB85F;
+}
+
+/* Umum */
+body {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+}
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+/* TAMPILAN HOME */
+.home {
+    padding-left: 6%;
+    padding-right: 0;
+    padding-top: 60px;
+}
+.car {
+    width: 100%;
+    min-width: 460px;
+    /* min-width: 600px; */
+}
+
+/* TAMPILAN OUR SERVICE */
+.service {
+    margin: 8% 12% 8% 12%;
+}
+li {
+    list-style: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.ceklis {
+    width: 24px;
+}
+
+/* TAMPILAN TESTIMONI */
+.carousel-inner {
+    margin-left: -24%;
+    display: flex;
+    justify-content: center;
+}
+
+/* TAMPILAN BANNER */
+.banner {
+    border-radius: 10px;
+}
+.banner-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* TAMPILAN FOOTER */
+.footer-menu {
+    text-decoration: none;
+    color: black;
+}
+.sosmed {
+    height: 32px;
+}
+.logo-bawah {
+    width: 100px;
+}
